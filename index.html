@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Profile card</title>
+        <style>
+  body {
+    background: linear-gradient(135deg, #075f1d 0%, #ACB6E5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #353434;
+    padding: 25px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border: 4px solid #627767;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 0.95rem;
+    color: #f8f7f7;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #faf8f8;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    color: #f8f9fc;
+}
+
+
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <img src="Screenshot 2025-08-01 111659.png" alt="Mathews Momanyi Mocha" class="profile-img">
+            <h2>MATHEWS MOMANYI MOCHA</h2>
+            <p class="bio">Beginner Software Developer, passionate about web development and AI Technologies.</p>
+            <p class="contact">Email: <a href="mail to:mattmocha01@gmail.com">mattmocha01@gmail.com</a></p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/matthew-mocha-23a436358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a> |
+                <a href="https://github.com/Saintmocha01">GitHub</a>
+            </div>
+        </div>
+    </body>
+</html>
